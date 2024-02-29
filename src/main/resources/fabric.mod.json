@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "woodyoudyecompanion",
+	"version": "${version}",
+	"name": "Wood You Dye Companion",
+	"description": "Using 'Wood you Dye', a single dye can now get you 8 planks instead of 1.",
+	"authors": [
+		"Blyrium"
+	],
+	"contact": {
+		"homepage": "https://github.com/Blyrium",
+		"sources": "https://github.com/Blyrium/wood-you-dye-companion"
+	},
+	"license": "MIT",
+	"icon": "assets/woodyoudyecompanion/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.blyrium.woodyoudyecompanion.WoodYouDyeCompanion"
+		],
+		"fabric-datagen": [
+			"net.blyrium.woodyoudyecompanion.WoodYouDyeCompanionDataGenerator"
+		]
+	},
+	"mixins": [
+		"woodyoudyecompanion.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*",
+		"wood_you_dye": ">=1.1.0"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
