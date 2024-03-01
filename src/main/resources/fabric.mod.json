@@ -8,8 +8,8 @@
 		"Blyrium"
 	],
 	"contact": {
-		"homepage": "https://github.com/Blyrium",
-		"sources": "https://github.com/Blyrium/wood-you-dye-companion"
+		"homepage": "https://modrinth.com/mod/wood-you-dye-companion",
+		"sources": "https://github.com/Blyrium/wood-you-dye-companion-1.20.1"
 	},
 	"license": "MIT",
 	"icon": "assets/woodyoudyecompanion/icon.png",
